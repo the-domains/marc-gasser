@@ -1,14 +1,26 @@
-layout_spectrum: 0.5902102475520223
-typography_spectrum: 0.6715010902844369
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.6009667
 color:
-  brandStrength: 0.19072583224624395
-  lightness: 0.8592206481844187
-  saturation: 0.5574431177228689
-  rhythmicContrast: 0.772875610506162
+  saturation: 0.9683136
+  brandStrength: 0.9951664
+  lightness: 1
   brandColors:
-    - '#354242'
-    - '#ACEBAE'
-    - '#FFFF9D'
-    - '#C9DE55'
-    - '#7D9100'
+    - '#121212'
+    - '#232323'
+    - '#02B8D7'
+    - '#FFFFFE'
+    - '#1C717F'
+  rhythmicContrast: 0.8200859
+layout_spectrum: 0.6772288
 name: Marc Gasser
